@@ -41,35 +41,44 @@ public class Main {
 //        }
 //=======================================================================================================
 
-        System.out.println("Podaj pierwszą liczbę: ");
-        Scanner scanner = new Scanner(System.in);
-        float number = scanner.nextFloat();
-        System.out.println("Wybierz znak: ");
-        String sign = scanner.next();
-        System.out.println("Podaj drugą liczbę: ");
-        float number1 = scanner.nextFloat();
+//        Napisz program realizujący prosty kalkulator.
+//                Program powinien:a.pobrać pierwszą liczbę (typu float)b.pobrać jeden ze znaków: + - / *c.pobrać drugą liczbę (typu float)d.
+//                zwrócić wynik pobranego działania Jeśli  użytkownik  poda  znak  inny  niż  obsługiwane,
+//        program  powinien  wypisać „Błędny znak”. Jeśli wpisanego działania nie da się zrealizować (tj. jest niezgodne z zasadami matematyki),
+//                to program powinien wypisać napis „Błąd”.
 
-        switch (sign) {
-            case "+": {
-                System.out.println(number + number1);
-                break;
-            }
-            case "-": {
-                System.out.println(number - number1);
-                break;
-            }
-            case "*": {
-                System.out.println(number * number1);
-                break;
-            }
-            case "/": {
-                System.out.println(number1 != 0 ? (number / number1) : "Error");
-                break;
-            }
-            default: {
-                System.out.println("Unknown command");
-            }
-        }
+
+//        System.out.println("Podaj pierwszą liczbę: ");
+//        Scanner scanner = new Scanner(System.in);
+//        float number = scanner.nextFloat();
+//        System.out.println("Wybierz znak: ");
+//        String sign = scanner.next();
+//        System.out.println("Podaj drugą liczbę: ");
+//        float number1 = scanner.nextFloat();
+//
+//        switch (sign) {
+//            case "+": {
+//                System.out.println(number + number1);
+//                break;
+//            }
+//            case "-": {
+//                System.out.println(number - number1);
+//                break;
+//            }
+//            case "*": {
+//                System.out.println(number * number1);
+//                break;
+//            }
+//            case "/": {
+//                System.out.println(number1 != 0 ? (number / number1) : "Error");
+//                break;
+//            }
+//            default: {
+//                System.out.println("Unknown command");
+//            }
+//        }
+
+
 
     }
 }
