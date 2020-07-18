@@ -22,22 +22,54 @@ public class Main {
 //        Kolejne  liczby  Fibonacciego powstają  poprzez  zsumowanie  dwóch  poprzednich  liczb  Fibonacciego.
 //        Przykładowo, kilka pierwszych liczb Fibonacciego wynosi kolejno: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377...
 
-        System.out.println("Podaj numer ciągu, którego wynik chcesz obliczyć: ");
+//        System.out.println("Podaj numer ciągu, którego wynik chcesz obliczyć: ");
+//        Scanner scanner = new Scanner(System.in);
+//        int number = scanner.nextInt();
+//        int x1 = 1;
+//        int x2 = 1;
+//        for (int i = 3; i <= number; i++) {
+//            if (i % 2 == 0) {
+//                x1 = x1 + x2;
+//            } else {
+//                x2 = x1 + x2;
+//            }
+//        }
+//        if (number % 2 == 0) {
+//            System.out.println(x1);
+//        } else {
+//            System.out.println(x2);
+//        }
+//=======================================================================================================
+
+        System.out.println("Podaj pierwszą liczbę: ");
         Scanner scanner = new Scanner(System.in);
-        int number = scanner.nextInt();
-        int x1 = 1;
-        int x2 = 1;
-        for (int i = 3; i <= number; i++) {
-            if (i % 2 == 0) {
-                x1 = x1 + x2;
-            } else {
-                x2 = x1 + x2;
+        float number = scanner.nextFloat();
+        System.out.println("Wybierz znak: ");
+        String sign = scanner.next();
+        System.out.println("Podaj drugą liczbę: ");
+        float number1 = scanner.nextFloat();
+
+        switch (sign) {
+            case "+": {
+                System.out.println(number + number1);
+                break;
+            }
+            case "-": {
+                System.out.println(number - number1);
+                break;
+            }
+            case "*": {
+                System.out.println(number * number1);
+                break;
+            }
+            case "/": {
+                System.out.println(number1 != 0 ? (number / number1) : "Error");
+                break;
+            }
+            default: {
+                System.out.println("Unknown command");
             }
         }
-        if (number % 2 == 0) {
-            System.out.println(x1);
-        } else {
-            System.out.println(x2);
-        }
+
     }
 }
