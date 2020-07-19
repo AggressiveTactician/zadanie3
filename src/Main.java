@@ -80,8 +80,11 @@ public class Main {
 //                System.out.println("Unknown command");
 //            }
 //        }
+//=================================================================================================================================================
+//        Napisz program, który pobierze od użytkownika liczbę dodatnią (typu int) i narysuje falę o zadanej długości i wysokości 4 linijek,
+//            zgodnie z poniższym schematem (puste pola uzupełniaj spacjami)
 
-        
+
 
     }
 }
