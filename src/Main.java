@@ -104,22 +104,27 @@ public class Main {
 //        aż użytkownik poda tekst „Starczy”, a następnie wypisze najdłuższy z podanych tekstów (nie biorąc pod uwagę tekstu „Starczy”)
 //        Jeśli użytkownik nie poda żadnego tekstu, to wypisz „Nie podano żadnego tekstu”.
 
-        System.out.println("Podaj słowo: ");
-        Scanner scanner = new Scanner(System.in);
-        String napis = scanner.nextLine();
-        int dlugosc = 0;
-        String napis2 = "Nie podadno żadnego tekstu";
-        while (!napis.equals("Starczy")) {
-            if (napis.isBlank()) {
-                System.out.println("Nie podano żadnego tekstu");
-            }
-            if (dlugosc < napis.length()) {
-                dlugosc = napis.length();
-                napis2 = napis;
-            }
-            napis = scanner.nextLine();
-        }
-        System.out.println(napis2);
+//        System.out.println("Podaj słowo: ");
+//        Scanner scanner = new Scanner(System.in);
+//        String napis = scanner.nextLine();
+//        int dlugosc = 0;
+//        String napis2 = "Nie podadno żadnego tekstu";
+//        while (!napis.equals("Starczy")) {
+//            if (napis.isBlank()) {
+//                System.out.println("Nie podano żadnego tekstu");
+//            }
+//            if (dlugosc < napis.length()) {
+//                dlugosc = napis.length();
+//                napis2 = napis;
+//            }
+//            napis = scanner.nextLine();
+//        }
+//        System.out.println(napis2);
+//===================================================================================================================================
+//        Napisz program,
+//        który pobierze od użytkownika tekst (zmienną typu String) i policzy jakim procentem wszystkich znaków tekstu był znak spacji,
+//        ((liczba spacji / liczba wszystkich znaków) * 100%)
+
 
 
     }
