@@ -80,10 +80,6 @@ public class Main {
 //                System.out.println("Unknown command");
 //            }
 //        }
-//=================================================================================================================================================
-//        Napisz program, który pobierze od użytkownika liczbę dodatnią (typu int) i narysuje falę o zadanej długości i wysokości 4 linijek,
-//            zgodnie z poniższym schematem (puste pola uzupełniaj spacjami)
-
 //  ======================================================================================================================
 
 //        Napisz  program,  który  pobierze  od  użytkownika  jedną  liczbę  dodatnią  (typu int)  i obliczy  sumę  cyfr  podanej  liczby.  Podpowiedź:  aby  rozpatrywać  liczbę  cyfra  po cyfrze,
@@ -125,7 +121,18 @@ public class Main {
 //        który pobierze od użytkownika tekst (zmienną typu String) i policzy jakim procentem wszystkich znaków tekstu był znak spacji,
 //        ((liczba spacji / liczba wszystkich znaków) * 100%)
 
-
-
+        System.out.println("Podaj tekst: ");
+        Scanner scanner = new Scanner(System.in);
+        String text = scanner.nextLine();
+        char spaceChar = ' ';
+        int spaceSum = 0;
+        for (int i = 0; i < text.length(); i++) {
+            if (text.charAt(i) == spaceChar) {
+                spaceSum++;
+            }
+        }
+        int percent = (int) ((double)spaceSum / text.length() * 100);
+        System.out.println(spaceSum);
+        System.out.println("Procent wszystkich znaków: " + percent);
     }
 }
