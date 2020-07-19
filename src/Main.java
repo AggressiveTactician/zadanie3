@@ -84,6 +84,11 @@ public class Main {
 //        Napisz program, który pobierze od użytkownika liczbę dodatnią (typu int) i narysuje falę o zadanej długości i wysokości 4 linijek,
 //            zgodnie z poniższym schematem (puste pola uzupełniaj spacjami)
 
+//  ======================================================================================================================
+
+//        Napisz  program,  który  pobierze  od  użytkownika  jedną  liczbę  dodatnią  (typu int)  i obliczy  sumę  cyfr  podanej  liczby.  Podpowiedź:  aby  rozpatrywać  liczbę  cyfra  po cyfrze,
+//        możesz  obliczać  resztę  z  dzielenia  liczby  przez  10  (aby  uzyskać  wartość ostatniej cyfry) i dzielić liczbę bez reszty przez 10 (żeby „przesuwać” się do kolejnej cyfry)
+
 
 
     }
