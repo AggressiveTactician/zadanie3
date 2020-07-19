@@ -89,14 +89,22 @@ public class Main {
 //        Napisz  program,  który  pobierze  od  użytkownika  jedną  liczbę  dodatnią  (typu int)  i obliczy  sumę  cyfr  podanej  liczby.  Podpowiedź:  aby  rozpatrywać  liczbę  cyfra  po cyfrze,
 //        możesz  obliczać  resztę  z  dzielenia  liczby  przez  10  (aby  uzyskać  wartość ostatniej cyfry) i dzielić liczbę bez reszty przez 10 (żeby „przesuwać” się do kolejnej cyfry)
 
-        System.out.println("Podaj liczbę dodatnią: ");
-        Scanner scanner = new Scanner(System.in);
-        int number = scanner.nextInt();
-        int result = 0;
-        while (number != 0) {
-            result += number % 10;
-            number /= 10;
-        }
-        System.out.println(result);
+//        System.out.println("Podaj liczbę dodatnią: ");
+//        Scanner scanner = new Scanner(System.in);
+//        int number = scanner.nextInt();
+//        int result = 0;
+//        while (number != 0) {
+//            result += number % 10;
+//            number /= 10;
+//        }
+//        System.out.println(result);
+//    ===========================================================================
+
+//        Napisz program, który będzie od użytkownika pobierał kolejne teksty (zmienne typu String) tak długo,
+//        aż użytkownik poda tekst „Starczy”, a następnie wypisze najdłuższy z podanych tekstów (nie biorąc pod uwagę tekstu „Starczy”)
+//        Jeśli użytkownik nie poda żadnego tekstu, to wypisz „Nie podano żadnego tekstu”.
+
+
+
     }
 }
